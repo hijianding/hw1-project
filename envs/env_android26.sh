@@ -1,1 +1,7 @@
-export PROJECT_INCLUDE_DIRECTORY="../platform-tool/include"
+export PLATFORMTOOL_DIRECTORY="../platform-tool/"
+export PROJECT_INCLUDE_DIRECTORY="$PLATFORMTOOL_DIRECTORY/include"
+export NDK_STANDALONE_TOOLCHAIN_ROOT_DIR="$PLATFORMTOOL_DIRECTORY"
+export ANDROID_G++_PATH="/system/arm-linux-androidabi/bin/"
+export SERVICE_DIRECTORY="../src/service/"
+export SERVICE_INVOKE_DIRECTORY="$SERVICE_DIRECTORY/invoke/"
+export APK_DIRECTORY="../src/apk/Demo/"
